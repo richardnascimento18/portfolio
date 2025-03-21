@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import 'tailwindcss';
 
 @theme {
+  /* Color Palette */
   --color-primary-50: #f4f1ff;
   --color-primary-100: #ede5ff;
   --color-primary-200: #dcceff;
@@ -12,9 +14,21 @@
   --color-primary-800: #6505d2;
   --color-primary-900: #5406ac;
   --color-primary-950: #330077;
+
+  /* Fonts */
+  --font-inter: 'Inter';
+
+  /* Paddings */
+  --padding-medium: 48px;
+
+  /* Margins */
+  --margin-medium: 48px;
+  --margin-container: 100px;
+
+  /* Rounded Values */
+  --radius-app: 5px;
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
   background-color: #111111;
 }
