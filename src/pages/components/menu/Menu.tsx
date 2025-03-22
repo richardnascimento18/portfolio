@@ -1,6 +1,6 @@
-import { LanguageChevron } from './LanguageChevron';
+import { LanguageChevronComponent } from './LanguageChevron';
 
-export function Menu() {
+export function MenuComponent() {
   return (
     <div className="flex">
       <div className="flex grow justify-center">
@@ -10,7 +10,7 @@ export function Menu() {
           <li className="cursor-pointer">Contact Me</li>
         </ul>
       </div>
-      <LanguageChevron />
+      <LanguageChevronComponent />
     </div>
   );
 }
