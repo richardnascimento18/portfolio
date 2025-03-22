@@ -15,6 +15,9 @@
   --color-primary-900: #5406ac;
   --color-primary-950: #330077;
 
+  /* width */
+  --container-width: 1720px;
+
   /* Fonts */
   --font-inter: 'Inter';
 
@@ -22,7 +25,11 @@
   --padding-medium: 48px;
 
   /* Margins */
+  --margin-xxs: 12px;
+  --margin-xs: 24px;
   --margin-medium: 48px;
+  --margin-xmedium: 62px;
+  --margin-big: 72px;
   --margin-container: 100px;
 
   /* Rounded Values */
@@ -31,4 +38,19 @@
 
 body {
   background-color: #111111;
+}
+
+.btn-primary {
+  background: linear-gradient(
+    180deg,
+    rgba(120, 2, 255, 1) 0%,
+    rgba(74, 38, 115, 1) 100%
+  );
+  color: var(--color-primary-50);
+  padding: 12px 24px;
+  border-radius: var(--radius-app);
+  font-family: var(--font-inter);
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
 }
