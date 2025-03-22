@@ -26,7 +26,9 @@
 
   /* Margins */
   --margin-xxs: 12px;
+  --margin-xxsv2: 16px;
   --margin-xs: 24px;
+  --margin-default: 36px;
   --margin-medium: 48px;
   --margin-xmedium: 62px;
   --margin-big: 72px;
@@ -38,6 +40,18 @@
 
 body {
   background-color: #111111;
+}
+
+.list-primary {
+  color: var(--color-primary-50);
+  font-family: var(--font-inter);
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: var(--margin-xs);
+}
+
+.list-primary > span {
+  color: var(--color-primary-700);
 }
 
 .btn-primary {
